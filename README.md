@@ -59,3 +59,15 @@
 3. Screenshoot running project
 
     ![Running project NextJS](<public/images/praktikum-2 running project.png>)
+
+## Jawaban Praktikum 3
+
+Screenshoot setelah menambahkan komponen **MyButton**
+![Adding component MyButton](<public/images/praktikum-3 add button.png>)
+
+## Jawaban Praktikum 4
+
+1. Fungsi sintaks `user.imageUrl` adalah mengambil nilai/value properti (yang berupa link gambar) dari objek `user` yang telah diinisialisasi sebelumnya, sehingga nilai tersebut dapat digunakan sebagai sumber gambar untuk ditampilkan.
+
+2. Screenshoot halaman setelah menambahkan komponen **Profile**
+![Adding component Profile](<public/images/praktikum-4 add profile.png>)
