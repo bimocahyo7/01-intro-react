@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Laporan Praktikum
 
-## Getting Started
+|  | Pemrograman Berbasis Framework 2024 |
+|--|--|
+| NIM |  244107027010|
+| Nama |  Bimo Cahyo Kusumo |
+| Kelas | TI - 4K |
 
-First, run the development server:
+## Jawaban Praktikum 1
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. `Git` - Perangkat lunak yang berfungsi sebagai Version Control System (VCS) untuk menyimpan, mengelola, dan  berbagi source code.<br>
+   `VS Code` - Perangkat lunak text editor yang biasa digunakan programmer untuk menulis kode program dalam membangun sebuah website atau aplikasi.<br>
+    `NodeJS` - Runtime environment untuk JavaScript sehingga code dapat berjalan di sisi server (sehingga tidak terbatas hanya dengan browser)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Screenshoot telah menginstall tools tersebut 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    ![Tools](public/images/praktikum-1.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Jawaban Praktikum 2
 
-## Learn More
+1. Istilah-istilah saat penginstallan project NextJS
 
-To learn more about Next.js, take a look at the following resources:
+    ![Initialize project](<public/images/praktikum-2 init project.png>)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    | Tech Stack | Keterangan |
+    | ------ | ------ |
+    | TypeScript | Superset dari JavaScript yang menambahkan fitur `static typing`, sehingga membantu dalam pengembangan dengan deteksi kesalahan lebih awal dan peningkatan keterbacaan kode.|
+    | ESLint | Tools yang berfungsi untuk mengidentifikasi dan melaporkan pola-pola yang ditemukan dalam kode JavaScript agar kode program menjadi lebih konsisten dan menghindari bug. |
+    | Tailwind CSS | Framework CSS berbasis `utility-first` yang memungkinkan pengembangan antarmuka pengguna dengan cepat melalui kelas-kelas siap pakai yang fleksibel. |
+    | App Router | Sistem routing bawaan NextJS yang berbasis file system dan mendukung fitur seperti server components. |
+    | Turbopack | Bundler modern yang dikembangkan oleh tim Vercel sebagai pengganti Webpack, dirancang untuk kecepatan lebih tinggi dalam membangun aplikasi Next.js.|
+    | Import alias | Fitur yang memungkinkan penggunaan `alias` dalam import untuk menghindari path yang panjang dan kompleks.|
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Kegunaan folder dan file pada struktur project NextJS
 
-## Deploy on Vercel
+    ![Stucture folder NextJS](<public/images/praktikum-2 structure folder.png>)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    | Folder/File | Keterangan |
+    | ------ | ------ |
+    | `.next/` | Direktori yang berisi hasil kompilasi dan build produksi dari aplikasi NextJS|
+    | `node_modules/` | Direktori yang menyimpan semua package dan dependensi yang diinstal melalui npm atau yarn. |
+    | `public/` | Direktori untuk menyimpan file statis seperti gambar, font, dan favicon yang bisa diakses langsung dari root URL aplikasi. |
+    | `src/` | Direktori utama yang berisi kode aplikasi termasuk komponen, halaman, dan logika bisnis. |
+    | `src/app/favicon.ico` | File icon yang akan ditampilkan pada tab browser. |
+    | `src/app/global.css` | File CSS global yang berisi style yang berlaku untuk seluruh aplikasi, termasuk konfigurasi Tailwind CSS|
+    | `src/app/layout.tsx` | Komponen layout utama yang membungkus seluruh halaman aplikasi. |
+    | `src/app/page.tsx` | Halaman utama (homepage) aplikasi yang akan ditampilkan pada root URL. |
+    | `.gitignore` | File yang menentukan file/folder mana yang tidak perlu dimasukkan ke dalam version control Git.|
+    | `eslint.config.mjs` | File konfigurasi ESLint untuk menjaga standar dan kualitas penulisan kode. |
+    | `next-env.d.ts` | File deklarasi TypeScript untuk Next.js yang menyediakan definisi tipe untuk fitur-fitur Next.js. |
+    | `next.config.ts` | File konfigurasi utama Next.js untuk mengatur perilaku aplikasi, routing, dan fitur-fitur Next.js lainnya.|
+    | `package.json` | File yang mendefinisikan metadata project, script, dan daftar dependensi yang digunakan. |
+    | `package-lock.json` | File yang mengunci versi dependensi agar instalasi konsisten di berbagai environment. |
+    | `postcss.config.mjs` | File konfigurasi PostCSS untuk pemrosesan CSS dan integrasi dengan tools seperti Tailwind.|
+    | `README.md` | File yang berisi referensi ke dokumentasi lebih lanjut tentang pengembangan atau penggunaan proyek, seperti API documentation, arsitektur proyek, dan cara berkontribusi.|
+    | `tailwind.config.ts` | File konfigurasi Tailwind CSS untuk mengatur tema, komponen, dan utilitas styling. |
+    | `tsconfig.json` | File konfigurasi TypeScript yang mengatur bagaimana TypeScript mengompilasi kode project.|
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Screenshoot running project
+
+    ![Running project NextJS](<public/images/praktikum-2 running project.png>)
